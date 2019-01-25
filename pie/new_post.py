@@ -1,0 +1,1 @@
+# generate new HTML post and append to content folder

@@ -1,0 +1,1 @@
+# genrate list of posts: limit of posts per page (default is 5)

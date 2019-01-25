@@ -1,0 +1,179 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  
+    .header {
+      background: linear-gradient(-90deg, #3b84f9, #66b4b7);
+      padding: 10%;
+    }
+    
+    .pdf {
+      margin: auto;
+      width: 200px;
+      padding: 1.5%;
+      text-align: center
+    }
+    .pdf {
+      font-size: 20px;
+      font-family: sans-serif;
+      color: white;
+      text-decoration: none;
+    }
+    
+    .blog-con{
+      width: 80%;
+      margin: 1% auto;
+    }
+  
+    .blog-info {
+      color: darkgray
+    }
+    
+    post {
+      display:block;margin:1% auto;padding:.5%;border:0;width:100%;overflow:hidden;
+    }
+    
+    .post-link {
+      text-decoration: none;
+      color: #4286f4;
+      margin-bottom:0;
+    }
+    
+    .post-link:hover {
+      color: #406199
+    }
+  
+    .post-author {
+      margin-top:0;
+      color: rgb(112, 112, 112);
+    }
+    
+    .footer {
+      width: 90%;
+      margin: 1% auto;
+      margin-bottom: 1%;
+      overflow: hidden
+    }
+    
+    .prev {
+      float: left;
+      border: 1px solid #4286f4;
+      border-radius: 5px;
+      padding: 1%
+    }
+  
+    .blog-post {
+      text-align: center;
+      text-transform: uppercase;
+      font-style: italic;
+      font-size: 25px;
+      font-weight: bolder;
+      color: rgba(255, 255, 255, 0.295) 
+    }
+    
+    .next {
+      float: right;
+      border: 1px solid #4286f4;
+      border-radius: 5px;
+      padding: 1%
+    }
+    
+    .footer a {
+      text-decoration: none;
+      color: gray;
+    }
+    
+    .footer a:hover {
+      text-decoration: none;
+      color: lightgray
+    }
+  
+    li {
+      list-style: none;
+      margin: 3%;
+      float:right;
+      font-size: 18px
+    }
+  
+    .title{
+      width:50%;
+      font-size: 40px;
+      font-weight: bold;
+      color: rgba(211, 203, 203, 0.39);
+      float: left;
+  
+    }
+  
+    .links {
+      float: left;
+      width:50%;
+    }
+  
+    .nav {
+      color: lightslategrey;
+      width: 90%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top:15px;
+      margin: auto;
+      transition: all 1.5s;
+    }
+  
+    .nav a {
+      color: rgb(186, 192, 197);
+      text-decoration: none
+    }
+  
+    .pdf h4 {
+      margin:0;padding:0;margin-top:2%;color:white
+    }
+  
+    .blog-post h5 {
+      margin:0;padding:0;
+    }
+  
+    .nav li:hover{
+      color: white
+    }
+  
+    .nav:hover {
+      color:white
+    }
+  
+    @media screen and (min-width: 760px) {
+      .header{
+        padding: 5%;
+    }
+  }
+  
+  .title-con {
+    width: 50%;
+    float: left
+  }
+  
+  .back a {
+    border-radius: 5%; 
+    text-decoration: none;
+    color: rgb(113, 113, 179);
+    border: 1px solid #4286f4;
+    border-radius: 5px;
+    margin-top: 4%;
+    padding: .7% 
+  }
+  
+  .back a:hover {
+    opacity: .8
+  }
+  
+  .post-text {
+    color: rgb(10, 10, 26);
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+  }
+  
+  @media screen and (max-width: 450px) {
+    .post-text {
+      font-size: 15px
+    }
+  }
